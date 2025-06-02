@@ -35,11 +35,11 @@ sections:
       title: "📚 My Research"
       subtitle: ""
       text: |-
-        **March 2025.** ne
+        **March 2025.** Poster on Kendall correlations and portfolio construction at the Louis Bachelier *18th Financial Risks International Forum* in Paris.
 
-        **December 2024.** he
+        **December 2024.** Another Kendall poster at the RMT *Brunel Bielefeld Workshop* in London!
 
-        **October 2024.** hello
+        **October 2024.** I presented a poster on Kendall correlation matrices at *Random Tensors and Related Topics* in Paris.
     design:
       columns: "1"
   - block: collection
