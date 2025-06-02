@@ -53,7 +53,7 @@ education:
     button:
       text: "Read Thesis"
       url: "https://example.com"
-  - area: BSc in Applied Mathematics
+  - area: MS and BS in Applied Mathematics
     institution: CentraleSupélec - Université Paris-Saclay
     date_start: 2016-01-01
     date_end: 2020-12-31
