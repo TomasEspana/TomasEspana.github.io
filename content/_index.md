@@ -35,11 +35,11 @@ sections:
       title: "📚 My Research"
       subtitle: ""
       text: |-
-        **March 2025.**
+        **March 2025.** ne
 
-        **December 2024.**
+        **December 2024.** he
 
-        **October 2024.**
+        **October 2024.** hello
     design:
       columns: "1"
   - block: collection
