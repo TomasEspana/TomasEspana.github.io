@@ -1,50 +1,43 @@
 ---
 # Display name
-title: 吳健雄
+title: Tomas España
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Tomas Espania
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Tomas
+last_name: Espana
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 
 # Role/position/tagline
-role: Chief Scientist
+role: Master's Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: CentraleSupélec
+    url: https://www.centralesupelec.fr/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: "mailto:your-email@example.com"
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: "mailto:tomas.espana@student-cs.fr"
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/espanato
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/tomas-espa%C3%B1a-74b761223/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=o-CIE-cAAAAJ&hl=fr
 
 interests:
   - Artificial Intelligence
