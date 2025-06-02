@@ -3,7 +3,7 @@
 title: Tomas España
 
 # Name pronunciation (optional)
-name_pronunciation: Tomas Espania
+name_pronunciation:
 
 # Full name (for SEO)
 first_name: Tomas
@@ -40,13 +40,12 @@ profiles:
     url: https://scholar.google.com/citations?user=o-CIE-cAAAAJ&hl=fr
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Quantitative Finance
+  - Random Matrix Theory
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: MS in Probability and Finance
+    institution: Université Paris-Cité
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -54,23 +53,12 @@ education:
     button:
       text: "Read Thesis"
       url: "https://example.com"
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: BSc in Applied Mathematics
+    institution: CentraleSupélec - Université Paris-Saclay
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
       GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
 
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -176,4 +164,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+More to come very soon !
