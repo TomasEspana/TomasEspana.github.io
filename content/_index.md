@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: "News!"
+      title: "News"
       subtitle: ""
       text: |-
         **March 2025.** Poster presentation on Kendall correlations and portfolio construction at the Louis Bachelier *18th Financial Risks International Forum* in Paris.
