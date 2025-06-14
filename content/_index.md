@@ -35,7 +35,7 @@ sections:
       title: "News"
       subtitle: ""
       text: |-
-        **June 2025.** Very happy to share my Master's project, supervised by [Rudy Morel](https://rudymorel.github.io/).
+        **June 2025.** Find attached my [Master's project](uploads/non_gaussian_directions_website.pdf) on multivariate time series factorization based on non-Gaussianity, supervised by [Rudy Morel](https://rudymorel.github.io/).
 
         **March 2025.** Poster presentation on Kendall correlations and portfolio construction at the Louis Bachelier *18th Financial Risks International Forum* in Paris.
 
