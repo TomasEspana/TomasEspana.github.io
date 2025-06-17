@@ -33,7 +33,7 @@ profiles:
   - icon: at-symbol
     url: "mailto:tomas.espana@student-cs.fr"
   - icon: brands/github
-    url: https://github.com/espanato
+    url: https://github.com/TomasEspana
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/tomas-espa%C3%B1a-74b761223/
   - icon: academicons/google-scholar
