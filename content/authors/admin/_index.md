@@ -44,7 +44,7 @@ interests:
   - Random Matrix Theory
 
 education:
-  - area: MS in Probability and Finance
+  - area: MS in Probability and Financ
     institution: Université Paris-Cité
     date_start: 2016-01-01
     date_end: 2020-12-31
