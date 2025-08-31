@@ -20,7 +20,7 @@ superuser: true
 highlight_name: false
 
 # Role/position/tagline
-role: Ph.D. Student
+role: ORFE Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -175,4 +175,4 @@ awards:
 
 ## About Me
 
-More to come very soon!
+First-year Ph.D. student at the Operations Research & Financial Engineering (ORFE) department.
