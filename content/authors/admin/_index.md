@@ -20,7 +20,7 @@ superuser: true
 highlight_name: false
 
 # Role/position/tagline
-role: Ph.D. Student at ORFE
+role: Ph.D. Student ORFE
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
