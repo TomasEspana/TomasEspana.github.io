@@ -20,7 +20,7 @@ superuser: true
 highlight_name: false
 
 # Role/position/tagline
-role: Ph.D. Student ORFE
+role: Ph.D. Student - ORFE
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -44,6 +44,17 @@ interests:
   - Random Matrix Theory
 
 education:
+  - area: Ph.D. Student - ORFE
+    institution: Princeton University
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
+
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - area: MS in Probability and Finance
     institution: Université Paris-Cité
     date_start: 2016-01-01
@@ -59,17 +70,6 @@ education:
     date_end: 2020-12-31
     summary: |
       GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: Ph.D. Student at ORFE
-    institution: Princeton University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
 
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
