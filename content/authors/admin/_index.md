@@ -175,4 +175,4 @@ awards:
 
 ## About Me
 
-First-year
+Ph.D. student at the Operations Research and Financial Engineering (ORFE) department.
