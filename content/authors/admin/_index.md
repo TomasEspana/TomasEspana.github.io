@@ -20,7 +20,7 @@ superuser: true
 highlight_name: false
 
 # Role/position/tagline
-role: ORFE Ph.D. Student
+role: Ph.D. Student at ORFE
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -64,8 +64,8 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area:
-    institution:
+  - area: Ph.D. Student at ORFE
+    institution: Princeton University
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
