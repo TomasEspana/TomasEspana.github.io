@@ -20,12 +20,12 @@ superuser: true
 highlight_name: false
 
 # Role/position/tagline
-role: Master's Student
+role: Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: CentraleSupélec
-    url: https://www.centralesupelec.fr/
+  - name: Princeton University
+    url: https://orfe.princeton.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
