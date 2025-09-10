@@ -176,4 +176,4 @@ awards:
 
 ## About Me
 
-First-year Ph.D. student at the Operations Research & Financial Engineering (ORFE) department.
+First-year Ph.D. student at the Operations Research & Financial Engineering (ORFE) department. I am very grateful for the support of the Gordon Wu Fellowship.
