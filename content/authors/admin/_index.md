@@ -20,7 +20,7 @@ superuser: true
 highlight_name: false
 
 # Role/position/tagline
-role: Ph.D. Student - ORFE
+role: Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -44,7 +44,7 @@ interests:
   - Random Matrix Theory
 
 education:
-  - area: Ph.D. Student - ORFE
+  - area: Ph.D. Student
     institution: Princeton University
     date_start: 2016-01-01
     date_end: 2020-12-31
