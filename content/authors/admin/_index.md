@@ -42,6 +42,7 @@ profiles:
 interests:
   - Quantitative Finance
   - Random Matrix Theory
+  - Machine Learning
 
 education:
   - area: Ph.D. Student
