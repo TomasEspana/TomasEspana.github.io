@@ -16,7 +16,7 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
+        text: CV (last update 01/26)
         url: uploads/resume.pdf
     design:
       css_class: dark
