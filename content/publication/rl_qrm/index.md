@@ -5,7 +5,7 @@ authors:
   - Yadh Hafsi
   - Fabrizio Lillo
   - Edoardo Vittori
-date: "2025-011-19"
+date: "2025-11-19"
 # doi: ""
 
 # Schedule page publish date (NOT publication's date).
