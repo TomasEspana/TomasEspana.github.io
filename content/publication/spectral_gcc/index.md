@@ -30,7 +30,7 @@ tags:
 
 links:
   - name: arxiv
-    url: https://arxiv.org/pdf/2509.25551
+    url: https://arxiv.org/abs/2509.25551
 url_pdf: https://arxiv.org/pdf/2509.25551
 # url_code: https://github.com/espanato/kendall_eigenvalues
 featured: false

@@ -32,7 +32,7 @@ tags:
 
 links:
   - name: arxiv
-    url: https://arxiv.org/pdf/2511.15262
+    url: https://arxiv.org/abs/2511.15262
 url_pdf: https://arxiv.org/pdf/2511.15262
 url_code: https://github.com/TomasEspana/qrm_optimal_execution
 featured: false
