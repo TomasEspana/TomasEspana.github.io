@@ -16,7 +16,7 @@ date: "2025-03-01"
 # publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: arXiv preprint
+publication: Electronic Communications in Probability (ECP)
 # publication_short: ""
 
 abstract: Bandeira *et al.* (2017) show that the eigenvalues of the Kendall correlation matrix of n i.i.d. random vectors in ℝᵖ are asymptotically distributed like 1/3 + (2/3)·Y₍q₎, where Y₍q₎ has a Marčenko–Pastur law with parameter q = lim(p/n) if p, n → ∞ proportionately to one another. Here we show that another Marčenko–Pastur law emerges in the \"ultra-high dimensional\" scaling limit where p ∼ q′·n²⁄2 for some q′ > 0. In this quadratic scaling regime, Kendall correlation eigenvalues converge weakly almost surely to (1/3)·Y₍q′₎.
