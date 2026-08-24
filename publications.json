@@ -6,8 +6,7 @@
         "publication": "arXiv preprint (2026).",
         "venue": "Random Matrix Theory",
         "links": {
-            "paper": "https://arxiv.org/pdf/2607.25486",
-            "arxiv": "https://arxiv.org/abs/2607.25486"
+            "paper": "https://arxiv.org/pdf/2607.25486"
         }
     },
     {
@@ -17,8 +16,7 @@
         "venue": "Quantitative Finance",
         "links": {
             "paper": "https://arxiv.org/pdf/2511.15262",
-            "code": "https://github.com/TomasEspana/qrm_optimal_execution",
-            "arxiv": "https://arxiv.org/abs/2511.15262"
+            "code": "https://github.com/TomasEspana/qrm_optimal_execution"
         }
     },
     {
@@ -27,8 +25,7 @@
         "publication": "arXiv preprint (2025).",
         "venue": "Random Matrix Theory",
         "links": {
-            "paper": "https://arxiv.org/pdf/2509.25551",
-            "arxiv": "https://arxiv.org/abs/2509.25551"
+            "paper": "https://arxiv.org/pdf/2509.25551"
         }
     },
     {
@@ -37,9 +34,8 @@
         "publication": "Electronic Communications in Probability (2026).",
         "venue": "Random Matrix Theory",
         "links": {
-            "paper": "https://arxiv.org/pdf/2503.18645",
-            "code": "https://github.com/espanato/kendall_eigenvalues",
-            "arxiv": "https://arxiv.org/abs/2503.18645"
+            "paper": "https://projecteuclid.org/journals/electronic-communications-in-probability/volume-31/issue-none/Another-Mar%C4%8Denko-Pastur-law-for-Kendalls-tau/10.1214/25-ECP749.pdf",
+            "code": "https://github.com/espanato/kendall_eigenvalues"
         }
     },
     {
@@ -48,8 +44,7 @@
         "publication": "arXiv preprint (2024).",
         "venue": "Quantitative Finance",
         "links": {
-            "paper": "https://arxiv.org/pdf/2410.17366",
-            "arxiv": "https://arxiv.org/abs/2410.17366"
+            "paper": "https://arxiv.org/pdf/2410.17366"
         }
     }
 ]
