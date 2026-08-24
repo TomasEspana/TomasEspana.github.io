@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let publications = [];
 
     const VENUE_ORDER = [
-        'ECP journal',
-        'Preprint',
+        'Random Matrix Theory',
+        'Quantitative Finance',
     ];
 
     function orderKey(venue) {
