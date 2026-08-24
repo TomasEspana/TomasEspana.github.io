@@ -1,0 +1,167 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <link rel="stylesheet" href="left_banner.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="google-site-verification" content="" />
+  <title>Tomas España's Homepage</title>
+  <base target="_blank">
+</head>
+
+<body>
+<div class="page-container">
+    <aside class="banner">
+        <header>
+            <div style="text-align: center;">
+                <img src="assets/avatar.jpg" alt="portrait" style="width:200px; height:200px; object-fit:cover; object-position:center; border-radius: 20%;" >
+            </div>
+            <h1 style="margin-bottom: 0; text-align: center;">Tomas España</h1>
+             <p style="text-align: center; font-size: 0.9rem;"> Ph.D. Student <br>
+                <a href="https://orfe.princeton.edu/" target="_blank">Operations Research &amp; Financial Engineering</a><br>
+                <a href="https://www.princeton.edu/" target="_blank">Princeton University</a>
+            </p>
+        </header>
+
+        <nav>
+            <ul class="icon-list">
+                <li><a href="https://scholar.google.com/citations?user=o-CIE-cAAAAJ&hl=fr"><i class="ai ai-google-scholar-square"></i></a></li>
+                <li><a href="https://github.com/TomasEspana"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="assets/CV_tomas_espana.pdf"><i class="ai ai-cv-square"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/tomas-espa%C3%B1a-74b761223/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="mailto:tomas.espana@princeton.edu"><i class="fa-solid fa-square-envelope"></i></a></li>
+            </ul>
+            <ul>
+                <li><a href="#about" target="_self">About</a></li>
+                <li><a href="#news" target="_self">News</a></li>
+                <li><a href="#publications" target="_self">Papers</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="theme-switcher">
+                        <input type="checkbox" id="theme-switcher" name="theme-switcher" role="switch">
+                        Dark Mode
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <section id="about">
+            <div id="about-me-content"></div>
+        </section>
+
+        <section id="news">
+            <!-- <h2>News</h2> -->
+            <div id="news-content"></div>
+        </section>
+
+        <section id="publications">
+            <h2>Papers</h2>
+            <div id="publications-container">
+                <aside id="topics">
+                    <h3>Filter by Venue</h3>
+                </aside>
+                <div id="papers">
+                </div>
+            </div>
+            <script src="publications.js" defer></script>
+            <link rel="stylesheet" href="publications.css">
+        </section>
+
+    </main>
+</div>
+<script>
+    const switcher = document.getElementById('theme-switcher');
+
+    const theme = (() => {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+            return localStorage.getItem('theme');
+        }
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            return 'dark';
+        }
+        return 'light';
+    })();
+
+    if (theme === 'light') {
+        document.documentElement.setAttribute('data-theme', 'light');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        switcher.checked = true;
+    }
+
+    const toggleTheme = (e) => {
+        const newTheme = e.target.checked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+    };
+
+    switcher.addEventListener('change', toggleTheme);
+</script>
+<script>
+    fetch('about.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('about-me-content').innerHTML = data;
+        });
+    fetch('news.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('news-content').innerHTML = data;
+            // After injecting HTML, filter to last 12 months and move older items under <details>
+            (function () {
+                const container = document.getElementById('news-content');
+                if (!container) return;
+
+                // Try to find existing UL; if none, wrap top-level LIs
+                let ul = container.querySelector('ul');
+                if (!ul) {
+                    const lis = Array.from(container.children).filter(el => el && el.tagName === 'LI');
+                    if (lis.length > 0) {
+                        ul = document.createElement('ul');
+                        container.insertBefore(ul, lis[0]);
+                        lis.forEach(li => ul.appendChild(li));
+                    }
+                }
+                if (!ul) return;
+
+                const now = new Date();
+                const nowYear = now.getFullYear();
+                const nowMonth = now.getMonth() + 1; // 1-12
+
+                const items = Array.from(ul.children).filter(el => el && el.tagName === 'LI');
+                const older = [];
+                for (let i = 0; i < items.length; i++) {
+                    const li = items[i];
+                    const b = li.querySelector('b');
+                    if (!b) continue;
+                    const m = (b.textContent || '').match(/(\d{2})\/(\d{4})/);
+                    if (!m) continue;
+                    const month = parseInt(m[1], 10);
+                    const year = parseInt(m[2], 10);
+                    if (!month || !year) continue;
+                    const monthsDiff = (nowYear - year) * 12 + (nowMonth - month);
+                    if (monthsDiff > 12) older.push(li);
+                }
+                if (older.length === 0) return;
+
+                const details = document.createElement('details');
+                const summary = document.createElement('summary');
+                summary.textContent = 'Show More';
+                details.appendChild(summary);
+                const olderUl = document.createElement('ul');
+                older.forEach(li => olderUl.appendChild(li));
+                details.appendChild(olderUl);
+                ul.insertAdjacentElement('afterend', details);
+                details.addEventListener('toggle', function () {
+                    summary.textContent = details.open ? 'Show Less' : 'Show More';
+                });
+            })();
+        });
+</script>
+</body>
+</html>

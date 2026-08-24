@@ -1,0 +1,98 @@
+<h2> News </h2>
+
+<li>
+<b>07/2025:</b>
+Gave my first talk (on Kendall correlations) at <i>SIAM FM25</i> in Miami.
+</li>
+<li>
+<b>06/2025:</b>
+See my <a href="assets/non_gaussian_directions.pdf">Master's project</a> on multivariate time series factorization based on non-Gaussianity, supervised by <a href="https://users.flatironinstitute.org/~rmorel/">Rudy Morel</a>.
+</li>
+<li>
+<b>03/2025:</b>
+Poster presentation on Kendall correlations and portfolio construction at the Louis Bachelier <i>18th Financial Risks International Forum</i> in Paris.
+</li>
+<li>
+<b>12/2024:</b>
+Another Kendall poster at the RMT <i>Brunel Bielefeld Workshop</i> in London!
+</li>
+<li>
+<b>10/2024:</b>
+I presented a poster on Kendall correlation matrices at <i>Random Tensors and Related Topics</i> in Paris.
+</li>
+<script>
+(function () {
+  var scriptEl = document.currentScript;
+  if (!scriptEl) return;
+  var container = scriptEl.parentElement;
+  if (!container) return;
+
+  // Try to find an existing UL before the script
+  var ul = null;
+  var prev = scriptEl.previousElementSibling;
+  while (prev) {
+    if (prev.tagName === 'UL') { ul = prev; break; }
+    prev = prev.previousElementSibling;
+  }
+
+  // If no UL, collect direct child LIs before the script and wrap them into a UL
+  if (!ul) {
+    var lis = [];
+    var node = container.firstElementChild;
+    while (node && node !== scriptEl) {
+      if (node.tagName === 'LI') lis.push(node);
+      node = node.nextElementSibling;
+    }
+    if (lis.length > 0) {
+      ul = document.createElement('ul');
+      container.insertBefore(ul, lis[0]);
+      for (var k = 0; k < lis.length; k++) {
+        ul.appendChild(lis[k]);
+      }
+    }
+  }
+
+  if (!ul) return;
+
+  var now = new Date();
+  var nowYear = now.getFullYear();
+  var nowMonth = now.getMonth() + 1; // 1-12
+
+  var items = Array.prototype.slice.call(ul.children).filter(function (el) {
+    return el && el.tagName === 'LI';
+  });
+
+  var older = [];
+  for (var i = 0; i < items.length; i++) {
+    var li = items[i];
+    var b = li.querySelector('b');
+    if (!b) continue;
+    var m = (b.textContent || '').match(/(\d{2})\/(\d{4})/);
+    if (!m) continue;
+    var month = parseInt(m[1], 10);
+    var year = parseInt(m[2], 10);
+    if (!month || !year) continue;
+    var monthsDiff = (nowYear - year) * 12 + (nowMonth - month);
+    if (monthsDiff > 12) {
+      older.push(li);
+    }
+  }
+
+  if (older.length === 0) return;
+
+  var details = document.createElement('details');
+  var summary = document.createElement('summary');
+  summary.textContent = 'Show More';
+  details.appendChild(summary);
+  var olderUl = document.createElement('ul');
+  for (var j = 0; j < older.length; j++) {
+    olderUl.appendChild(older[j]);
+  }
+  details.appendChild(olderUl);
+  ul.insertAdjacentElement('afterend', details);
+
+  details.addEventListener('toggle', function () {
+    summary.textContent = details.open ? 'Show Less' : 'Show More';
+  });
+})();
+</script>

@@ -1,0 +1,35 @@
+.claude/
+.index.autorec
+data_F6MajWzBeik8MQhEMrXW
+downstream_fjhi478rkjbt8u4knjbs
+dynamics.py
+eval_wMAi7qdRrNTFLeLFiHhn
+evaluation_visual/
+external_*
+papers/
+sag_f8mzeUsQkpGRZzYa846a
+vis_test/
+
+# macOS
+.DS_Store
+
+# Node / frontend dependencies
+node_modules/
+
+# Common build outputs
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

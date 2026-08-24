@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* left_banner.css */
+:root {
+    --font-size: 17px;
+    --spacing: 0.75rem;
+    --banner-width: 260px;
+    --banner-background: #f4f6f8;
+}
+
+[data-theme="dark"] {
+    --banner-background: #1e2022;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: var(--font-size);
+}
+
+.page-container {
+    display: flex;
+}
+
+.banner {
+    width: var(--banner-width);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 2rem;
+    background-color: var(--banner-background);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.banner nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.banner nav li {
+    margin-bottom: 1rem;
+}
+
+.content {
+    margin-left: var(--banner-width);
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+.bibtex{
+    padding: 8px 15px;
+    margin-top: 15px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    display: none;
+}
+
+main.container, .container {
+    max-width: none;
+    padding: 0;
+}
+
+nav.container {
+    padding: 0;
+    border-bottom: none;
+}
+
+
+@media (max-width: 768px) {
+    .page-container {
+        flex-direction: column;
+    }
+
+    .banner {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 1rem;
+    }
+}
+
+.icon-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.icon-list li a i {
+    font-size: 2rem;
+    color: var(--pico-primary);
+}
+
+.icon-list li a svg {
+    width: 2rem;
+    height: 2rem;
+    color: var(--pico-primary);
+}
+
+#pronunciation-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1.0rem;
+}
+
+#pronunciation-details p {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    padding: 0px;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 0px;
+    border: 1px solid var(--pico-muted-border-color);
+    background-color: var(--pico-card-background-color);
+}
+
+#pronunciation-icon:hover {
+    color: var(--pico-primary-hover);
+}

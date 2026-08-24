@@ -1,0 +1,55 @@
+[
+
+    {
+        "title": "Spectra of high-dimensional Spearman correlation matrices under scale-mixture dependence,",
+        "authors": "Jean-Philippe Bouchaud, Pierre Bousseyroux, Tomas Espana, Matteo Smerlak,",
+        "publication": "arXiv preprint (2026).",
+        "venue": "Preprint",
+        "links": {
+            "paper": "https://arxiv.org/pdf/2607.25486",
+            "arxiv": "https://arxiv.org/abs/2607.25486"
+        }
+    },
+    {
+        "title": "Reinforcement learning in queue-reactive models: application to optimal execution,",
+        "authors": "Tomas Espana, Yadh Hafsi, Fabrizio Lillo, Edoardo Vittori,",
+        "publication": "arXiv preprint (2025).",
+        "venue": "Preprint",
+        "links": {
+            "paper": "https://arxiv.org/pdf/2511.15262",
+            "code": "https://github.com/TomasEspana/qrm_optimal_execution",
+            "arxiv": "https://arxiv.org/abs/2511.15262"
+        }
+    },
+    {
+        "title": "Random matrices and U-statistics,",
+        "authors": "Florent Benaych-Georges, Tomas Espana,",
+        "publication": "arXiv preprint (2025).",
+        "venue": "Preprint",
+        "links": {
+            "paper": "https://arxiv.org/pdf/2509.25551",
+            "arxiv": "https://arxiv.org/abs/2509.25551"
+        }
+    },
+    {
+        "title": "Another Marčenko-Pastur law for Kendall's tau,",
+        "authors": "Pierre Bousseyroux, Tomas Espana, Matteo Smerlak,",
+        "publication": "Electronic Communications in Probability (2026).",
+        "venue": "ECP journal",
+        "links": {
+            "paper": "https://arxiv.org/pdf/2503.18645",
+            "code": "https://github.com/espanato/kendall_eigenvalues",
+            "arxiv": "https://arxiv.org/abs/2503.18645"
+        }
+    },
+    {
+        "title": "Kendall correlation coefficients for portfolio optimization,",
+        "authors": "Tomas Espana, Victor Le Coz, Matteo Smerlak,",
+        "publication": "arXiv preprint (2024).",
+        "venue": "Preprint",
+        "links": {
+            "paper": "https://arxiv.org/pdf/2410.17366",
+            "arxiv": "https://arxiv.org/abs/2410.17366"
+        }
+    }
+]
