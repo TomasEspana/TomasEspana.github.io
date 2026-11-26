@@ -1,5 +1,13 @@
 [
-
+    {
+        "title": "Skew-symmetric factor models,",
+        "authors": "Anna Bykhovskaya, Tomas Espana, Jianqing Fan,",
+        "publication": "arXiv preprint (2026).",
+        "venue": "Random Matrix Theory",
+        "links": {
+            "paper": "https://arxiv.org/pdf/2611.28301"
+        }
+    },
     {
         "title": "Spectra of high-dimensional Spearman correlation matrices under scale-mixture dependence,",
         "authors": "Jean-Philippe Bouchaud, Pierre Bousseyroux, Tomas Espana, Matteo Smerlak,",
